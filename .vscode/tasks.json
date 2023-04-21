@@ -11,12 +11,8 @@
                 "-o",
                 "${workspaceFolder}/output/${fileBasenameNoExtension}",
                 "-I",
-                "${workspaceFolder}/include",
-                // "-I",
-                // "/usr/include/glib-2.0",
-                // "-I",
-                // "/usr/lib/x86_64-linux-gnu/glib-2.0/include",
-                // "`pkg-config --cflags --libs glib-2.0`"
+                "${workspaceFolder}/include"
+
             ],
             "options": {
                 "cwd": "${fileDirname}"
